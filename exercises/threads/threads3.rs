@@ -3,7 +3,16 @@
 // Execute `rustlings hint threads3` or use the `hint` watch subcommand for a
 // hint.
 
-// I AM NOT DONE
+#[test]
+fn is_true_when_even() {
+    assert!(is_even(90));
+}
+
+#[test]
+fn is_false_when_odd() {
+    assert!(is_even(92));
+}
+
 
 use std::sync::mpsc;
 use std::sync::Arc;
